@@ -96,20 +96,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* html {
-    background-color: lightblue;
-} */
+
 html {
-    background-color: lightblue;
+    background: url(https://images.pexels.com/photos/248174/pexels-photo-248174.jpeg?cs=srgb&dl=arizona-clouds-dawn-248174.jpg&fm=jpg) fixed;
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: lightblue;
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
     min-width: 640px;
     width: 95%;
+    border-radius: 5px;
 }
 
 header {
@@ -119,12 +118,39 @@ header {
 }
 
 nav {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p,
+h1 {
     text-align: center;
+}
+
+/* nav {
+    display: table;
+    width: 50%;
     list-style: none;
     text-decoration: none;
 }
 
 li {
+    text-align: center;
     text-decoration: none;
     list-style: none;
     display: inline-block;
@@ -136,10 +162,7 @@ ul>li {
     display: table-row;
 }
 
-nav {
-    display: table;
-    width: 50%;
-}
+
 
 nav>ul {
     display: table-row;
@@ -158,12 +181,10 @@ nav>ul>li {
 li a,
 li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none;
-}
+    text-decoration: none; 
+}*/
 
-img {
-    width: 100%;
-}
+
 
 
 
