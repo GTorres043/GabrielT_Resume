@@ -99,6 +99,7 @@ textarea {
 
 html {
     background: url(https://images.pexels.com/photos/248174/pexels-photo-248174.jpeg?cs=srgb&dl=arizona-clouds-dawn-248174.jpg&fm=jpg) fixed;
+    background-color: purple;
 }
 
 body {
@@ -150,51 +151,23 @@ li a:hover {
 
 
 p,
-h1 {
+h1,
+h2 {
     text-align: center;
 }
 
-/* nav {
-    display: table;
-    width: 50%;
-    list-style: none;
-    text-decoration: none;
+h1,
+h2 {
+    font-family: 'Courier New', Courier, monospace;
 }
 
-li {
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
+nav {
+    border-radius: 5px;
 }
 
-
-
-ul>li {
-    display: table-row;
+#comment {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-
-nav>ul {
-    display: table-row;
-    list-style-type: none;
-}
-
-nav>ul>li {
-    display: table-cell;
-    list-style: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: white;
-    text-decoration: none;
-    text-align: center;
-}
-
-li a,
-li {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none; 
-}*/
 
 
 
