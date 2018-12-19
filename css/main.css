@@ -110,12 +110,14 @@ body {
     min-width: 640px;
     width: 95%;
     border-radius: 5px;
+    box-shadow: 15px 0px 25px, -15px 0px 25px;
 }
 
 header {
     text-align: center;
     font-size: 100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 5px 5px 25px;
 }
 
 ul {
@@ -169,6 +171,23 @@ nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+hr {
+    background: #000;
+    width: 650px;
+    margin: auto;
+}
+
+img#project {
+    width: 500px;
+    height: 275px;
+}
+
+aside {
+    border: 5px solid rgba(0, 0, 0, 0.475);
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
 
 
 
