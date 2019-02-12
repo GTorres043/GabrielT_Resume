@@ -178,8 +178,11 @@ hr {
 }
 
 img#project {
-    width: 500px;
     height: 275px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 aside {
@@ -187,6 +190,7 @@ aside {
     width: 700px;
     text-align: center;
     margin: auto;
+    border-radius: 30px;
 }
 
 
